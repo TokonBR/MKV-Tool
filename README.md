@@ -1,6 +1,6 @@
 # MKV Tool v1.0.0 by Tokon
 
-Organizador de arquivos **MKV em lote para Windows 11**, com interface gráfica preta, utilizando o **MKVToolNix** (`mkvmerge`).
+Organizador de arquivos **MKV em lote para Windows **, com interface gráfica tema escuro, utilizando o **MKVToolNix** (`mkvmerge`).
 
 > Projeto independente. Não é um produto oficial do MKVToolNix.
 
