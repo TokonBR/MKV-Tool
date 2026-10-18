@@ -16,7 +16,7 @@ Organizador de arquivos **MKV em lote para Windows 11**, com interface gráfica 
 
 ## Requisitos
 
-- Windows 11 (64 bits recomendado).
+- Windows 10/11 (64 bits recomendado).
 - [MKVToolNix](https://mkvtoolnix.download/downloads.html) instalado, com `mkvmerge.exe` acessível no caminho padrão ou no `PATH`.
 - **Para rodar o código-fonte:** Python 3 com Tkinter (normalmente incluído no instalador oficial do Python para Windows).
 - **Para gerar o executável:** Python 3, pip e conexão à internet para instalar PyInstaller.
@@ -48,22 +48,9 @@ Os idiomas selecionados são mantidos; os não selecionados são removidos dos M
 
 As preferências ficam em `%APPDATA%\MKV Tool\settings.json`, incluindo pasta de saída, filtros e preferências de idiomas.
 
-## Publicar uma versão no GitHub
-
-1. Crie um repositório chamado `mkv-tool-by-tokon`.
-2. Envie os arquivos deste projeto (sem `build/`, `dist/` ou configurações pessoais).
-3. Na aba **Releases**, crie uma versão, por exemplo `v1.0.0`.
-4. Compile e teste o EXE no Windows; anexe o EXE à Release se desejar.
-
-Veja também [CONTRIBUTING.md](CONTRIBUTING.md) e [CHANGELOG.md](CHANGELOG.md).
-
 ## Licenças e créditos
 
 O código deste repositório está sob a [licença MIT](LICENSE), conforme a licença escolhida para este projeto. O **MKVToolNix** é software de terceiros e tem licenças próprias; não está incluído neste repositório. Consulte o [site oficial](https://mkvtoolnix.download/) antes de redistribuir seus binários.
-
-## Estado do projeto
-
-Código verificado sintaticamente com Python; a interface e o processamento ainda precisam ser testados em uma instalação real do Windows 11.
 
 ## Menu Sobre
 
